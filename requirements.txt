@@ -1,0 +1,35 @@
+# JARVIS Voice Assistant Requirements
+# Install with: pip install -r requirements.txt
+
+# GUI Framework
+tkinter==0.1.0
+
+# Text-to-Speech Engine
+pyttsx3==2.90
+
+# Speech Recognition
+SpeechRecognition==3.10.0
+PyAudio==0.2.14
+
+# Wikipedia Integration
+wikipedia==1.4.0
+
+# Web Scraping
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Automation & Utilities
+pyautogui==0.9.54
+pyjokes==0.6.0
+
+# Additional Dependencies (usually auto-installed)
+lxml==4.9.3
+urllib3==2.0.7
+certifi==2023.7.22
+charset-normalizer==3.3.0
+idna==3.4
+
+# Platform-specific note:
+# - On Windows: PyAudio may require Microsoft C++ Build Tools
+# - On Linux: Install portaudio19-dev first: sudo apt-get install portaudio19-dev python3-pyaudio
+# - On macOS: Install with: brew install portaudio && pip install pyaudio
