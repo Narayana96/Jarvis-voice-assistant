@@ -21,8 +21,8 @@ import time
 import queue
 
 # API Keys - Replace with your own keys
-NEWS_API_KEY = "41a7a41c979b47738401dbd433ea14f9"  
-WEATHER_API_KEY = "c11900c45a6b4552fbf09a771d18cb5a"  
+NEWS_API_KEY = "***********************"  
+WEATHER_API_KEY = "**********************"  
 
 class EnhancedVoiceAssistant:
     def __init__(self, root):
